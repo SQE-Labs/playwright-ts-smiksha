@@ -12,6 +12,6 @@
     await page.type('input[name="email"]',"vishal.thakur@caeliusconsulting.com",{delay:200});
     await page.type('input[name="password"]',"Test@123",{delay:200});
      await page.click('.theme-button');
-     await page.waitForTimeout(6000);
+     await page.waitForTimeout(10000);
 ;
  })
