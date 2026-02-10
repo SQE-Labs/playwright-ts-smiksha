@@ -1,0 +1,23 @@
+{
+  "name": "playwright-ts-smiksha",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation framework",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SQE-Labs/playwright-ts-smiksha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SQE-Labs/playwright-ts-smiksha/issues"
+  },
+  "homepage": "https://github.com/SQE-Labs/playwright-ts-smiksha#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.2"
+  }
+}
