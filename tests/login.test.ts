@@ -1,7 +1,7 @@
  import{chromium, test} from "@playwright/test"
  test("Login test demo",async()=>{
      const browser= await chromium.launch({
-        headless:true
+        headless:false   //by default PW takes it has true which means browser will be there but there will no GUI
  }); //launch browser instance stored in browser
      const context= await browser.newContext();
      const page =await context.newPage();
@@ -13,5 +13,6 @@
     await page.type('input[name="password"]',"Test@123",{delay:200});
      await page.click('.theme-button');
      await page.waitForTimeout(10000);
+     await browser.close();
 ;
  })
